@@ -1,0 +1,86 @@
+body {
+	background-image: url('img/bg.png');
+}
+.buttons {
+	margin-left: 40%;
+}
+
+.buttons button{
+	display: inline-block;
+	margin-right: 4px;
+}
+
+#profile {
+	width: 400px;
+	
+}
+
+#profile p{
+	text-align: center;
+}
+
+.zoom img{
+  padding: 20px;
+  transition: transform .2s;
+  
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.zoom img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
+
+.links a{
+	font-size: 18px;
+	display: inline-block;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50px;
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	transition: 0.3s;
+}
+
+
+.twi a{
+	background:skyblue; 
+	color: white;
+}
+.twi a:hover{
+	background: #343a40;
+	color: skyblue;
+	text-decoration: none;
+}
+.fb a{
+	background:#1877F2; 
+	color: white;
+}
+.fb a:hover{
+	background: #343a40;
+	color: #1877F2;
+	text-decoration: none;
+}
+.yt a{
+	background:red; 
+	color: white;
+}
+.yt a:hover{
+	background: #343a40;
+	color: red;
+	text-decoration: none;
+}
+.inst a{
+	background:palevioletred; 
+	color: white;
+}
+.inst a:hover{
+	background: #343a40;
+	color: palevioletred;
+	text-decoration: none;
+}
+
